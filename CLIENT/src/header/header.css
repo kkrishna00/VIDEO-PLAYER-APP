@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;800&family=Merriweather:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.welcome {
+  margin: 0px 17px;
+  font-size: 1.2rem;
+  color: rgb(195, 219, 219);
+  background-color: rgb(48, 46, 46);
+  font-family: "Baloo 2", cursive;
+}
+.welcome h3 {
+  background-color: rgb(48, 46, 46);
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(48, 46, 46);
+  color: white;
+  height: 70px;
+  align-items: center;
+  z-index: 2;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 3px;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+  background-color: rgb(48, 46, 46);
+}
+.navbar ul li a {
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(209, 177, 177);
+  background-color: rgb(48, 46, 46);
+  margin: 0px 30px;
+}
+.bttn {
+  font-family: "Merriweather", serif;
+  color: white;
+  border: 2px solid whitesmoke;
+  background-color: #272726af;
+  border-radius: 10px;
+  margin: 0px 22px;
+  width: 5%;
+  height: 42%;
+  font-size: 1rem;
+  cursor: pointer;
+}

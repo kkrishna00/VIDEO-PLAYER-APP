@@ -1,0 +1,23 @@
+.Control {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 2px 25px;
+  padding: 5px 10px;
+  align-items: center;
+}
+.Control label {
+  margin: 2px 25px;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+}
+.Control input {
+  color: white;
+  margin: 2px 10px;
+  padding: 12px 10px;
+  width: 50%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(197, 162, 162);
+}

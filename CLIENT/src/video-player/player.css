@@ -1,0 +1,14 @@
+* {
+  background-color: black;
+  color: white;
+}
+.mainsection {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Baloo 2", cursive;
+}
+.mainsection h1 {
+  margin: 20px;
+  color: rgb(111, 160, 160);
+}
